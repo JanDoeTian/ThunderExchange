@@ -1,2 +1,2 @@
-# ThunderExchange
-ThunderExchange is my open source stock exchange system, this is one of my university project and should be used with absolutely no guarantee!
+# Warning!
+This is my university project and there is no guarantee to the quality of the system, for learning purpose only!
