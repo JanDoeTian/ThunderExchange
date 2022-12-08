@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:sqlite:/Users/james/Downloads/ThunderExchange/AppService/src/main/resources/counter.db
+    driver-class-name: org.sqlite.JDBC
+
+mybatis:
+  mapperLocations: classpath:mapper/*.xml
+mybatis-plus:
+  configuration:
+    jdbc-type-for-null: 'null'
