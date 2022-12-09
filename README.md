@@ -13,4 +13,4 @@ This two part design guarantees scalability, reliability and high performance in
 - :rocket: High performance: __Lockless multithreading__ with __native thread-safe data structure__ provides __blazing fast__:heart_eyes_cat: order matching. 
 
 # System Structure
-![Alt text](/bb.png?raw=true "Optional Title")
+![Alt text](/bb.jpeg?raw=true "System Structure")
