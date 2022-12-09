@@ -14,3 +14,11 @@ This two part design guarantees scalability, reliability and high performance in
 
 # System Structure
 ![Alt text](/bb.jpeg?raw=true "System Structure")
+
+The System consists of 5 main parts, namely: __App Service__ , __Socket GateWay__ , __Order Queue__, __Matching Engine__ and __Publisher__. Each of them serve a distinct function, with carefullly decoupled communications, they enable scability and high performance.
+
+### App Service:
+Build with Spring framework, which is a popular Java application framework. It provides a comprehensive set of features for building applications, including a lightweight container, support for dependency injection, and tools for managing transactions and data access. Spring makes it easy to create complex, enterprise-grade applications that are modular, reusable, and easy to test.
+
+The __App Service__ module handles request from Frontend through REST protocol, this includes accounting functions such as query account balance, trading functions such as placing orders, view positions etc. More importantly, it serve as a _consumer_ of MQTT for trades that have been published by the __publisher__ module. 
+
